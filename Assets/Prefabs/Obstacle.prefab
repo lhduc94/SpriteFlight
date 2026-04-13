@@ -76,7 +76,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 2747690628134850419, guid: b670ab75dde984907b8570040daa08c5, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 830164d71b9d60c40b606822b957d10b, type: 3}
   m_Color: {r: 0.8493743, g: 0.9150943, b: 0.09064613, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -102,7 +102,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -150,7 +150,7 @@ PolygonCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 0.8828125}
+    oldSize: {x: 0.32, y: 0.32}
     newSize: {x: 1, y: 0.8828125}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -177,3 +177,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 67f413e918421884a95475d4722c3e30, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  minSize: 0.5
+  maxSize: 2
+  minSpeed: 50
+  maxSpeed: 100
+  maxSpinSpeed: 10
+  explosionEffect: {fileID: 30768450942463205, guid: 68800efe9d1289545817a5f5a54cca45, type: 3}
