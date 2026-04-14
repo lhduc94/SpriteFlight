@@ -42,4 +42,5 @@ public class Obstacle : MonoBehaviour
     // Destroy the effect after 1 second
     Destroy(bounceEffect, 1f);
     }
+
 }
